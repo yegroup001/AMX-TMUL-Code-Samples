@@ -1,4 +1,4 @@
-CFLAG = -O2 -march=native -fno-strict-aliasing
+CFLAG = -O2 -march=native -fno-strict-aliasing -mamx-tile
 CC = gcc
 BIN = test-amxtile 
 CFILES =test-amxtile.c 
